@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply font-vadodara text-dark-violet;
+    }    
+}
+
+@layer utilities{
+    .style-shadow{
+        text-decoration: none;
+        text-shadow: 0 0 1px; /* "bold" */
+    }
+    .rounded-bg-right{
+        border-radius: 0 400px 0 0;
+    }
+
+    .rounded-bg-left{
+        border-radius: 400px 0 0 0;
+    }
+
+    .roundend-bg-footer{
+        border-radius: 0 160px 0 0;
+    }
+
+    
+}
+
+@layer components{
+    .text-shadow{
+        @apply style-shadow
+    }
+
+    .bg-default{
+        @apply content-[""] block absolute w-[90%] h-full -z-40 rounded-bg-right
+    }
+
+    .bg-vector-a{
+        @apply content-[""] bg-vetor-1 bg-cover block absolute bg-no-repeat w-[29%] h-full -z-10 right-0
+    }
+
+    .bg-vector-b{
+        @apply content-[""] bottom-4 bg-vetor-2 bg-contain block absolute bg-no-repeat w-[80%] h-[100%] -z-30 -right-1
+    }
+    .bg-vector-c{
+        @apply content-[""] bottom-6 bg-ellipse-3 bg-contain block absolute bg-no-repeat w-[80%] h-[80%] -z-10 right-28
+    }
+    .bg-vector-d{
+        @apply content-[""] bg-ellipse-2 bg-cover block absolute bg-no-repeat bottom-[-40px] w-[21%] h-[68%] -z-50 right-0
+    }
+    .bg-vector-e{
+        @apply content-[""] bottom-12 bg-ellipse-2 bg-contain block absolute bg-no-repeat w-[70%] h-[70%] -z-40 right-36
+    }
+    .bg-vector-f{
+        @apply content-[""] bottom-8 bg-vetor-3 bg-contain block absolute bg-no-repeat w-[75%] h-[75%] -z-30 right-32
+    }
+}
