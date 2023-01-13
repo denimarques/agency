@@ -851,7 +851,7 @@ body {
 }
 
 .bg-details-social {
-  background-image: url('./public/dist/image/ellipse-8.svg');
+  background-image: url('/public/dist/image/ellipse-8.svg');
 }
 
 .bg-contain {
@@ -1061,7 +1061,7 @@ body {
   display: block;
   height: 100%;
   width: 29%;
-  background-image: url('./public/dist/image/vetor-1.svg');
+  background-image: url('/public/dist/image/vetor-1.svg');
   background-size: cover;
   background-repeat: no-repeat;
   --tw-content: "";
@@ -1076,7 +1076,7 @@ body {
   display: block;
   height: 100%;
   width: 80%;
-  background-image: url('./public/dist/image/vetor-2.svg');
+  background-image: url('/public/dist/image/vetor-2.svg');
   background-size: contain;
   background-repeat: no-repeat;
   --tw-content: "";
@@ -1096,7 +1096,7 @@ body {
   display: block;
   height: 80%;
   width: 80%;
-  background-image: url('./public/dist/image/ellipse-11.svg');
+  background-image: url('/public/dist/image/ellipse-11.svg');
   background-size: contain;
   background-repeat: no-repeat;
   --tw-content: "";
@@ -1111,7 +1111,7 @@ body {
   display: block;
   height: 68%;
   width: 21%;
-  background-image: url('./public/dist/image/ellipse-16.svg');
+  background-image: url('/public/dist/image/ellipse-16.svg');
   background-size: cover;
   background-repeat: no-repeat;
   --tw-content: "";
@@ -1126,7 +1126,7 @@ body {
   display: block;
   height: 70%;
   width: 70%;
-  background-image: url('./public/dist/image/ellipse-16.svg');
+  background-image: url('/public/dist/image/ellipse-16.svg');
   background-size: contain;
   background-repeat: no-repeat;
   --tw-content: "";
@@ -1141,7 +1141,7 @@ body {
   display: block;
   height: 75%;
   width: 75%;
-  background-image: url('./public/dist/image/vetor-3.svg');
+  background-image: url('/public/dist/image/vetor-3.svg');
   background-size: contain;
   background-repeat: no-repeat;
   --tw-content: "";
